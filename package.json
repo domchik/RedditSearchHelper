@@ -5,6 +5,7 @@
   "scripts": {
     "start": "concurrently \"cd RedditSearchClient && npm start\" \"cd RedditSearchServer && npm run start\"",
     "install-all": "cd RedditSearchClient && npm install && cd ../RedditSearchServer && npm install",
-    "test": "cd RedditSearchServer && npm run test"
+    "test-be": "cd RedditSearchServer && npm run test",
+    "test-fe": "cd RedditSearchClient && npm run test"
   }
 }

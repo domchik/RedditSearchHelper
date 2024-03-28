@@ -6,8 +6,7 @@ An application for searching Reddit posts built with React and Node.js
 
 
 ## General comments
-* Usually I use TypeScript for both React and Node.js projects. I wrote this application in Javascript for the sake of simplicity 
-* Unit tests were added only in the backend. In a real project I would also add unit test to the client
+* Usually I use TypeScript for both React and Node.js projects. I wrote this application in Javascript for the sake of simplicity
 * React project was created using Vite (https://vitejs.dev/)
 * Tailwind CSS was used as a CSS framework 
 * .env file was omitted for the sake of simplicity  
@@ -29,8 +28,9 @@ The project was created as monorepo:
 
 1. Run `npm install` from the ROOT folder.
 2. **Install projects' dependencies:** run `npm run install-all` from the ROOT folder.
-3. **Run BE tests:** `npm test` from the ROOT folder
-4. **Run the apps:** `npm start` from the ROOT folder
+3. **Run BE tests:** `npm test-be` from the ROOT folder
+4. **Run FE tests:** `npm test-fe` from the ROOT folder
+5. **Run the apps:** `npm start` from the ROOT folder
 5. **The app is running on:** http://localhost:3001
 
 ## Preview
