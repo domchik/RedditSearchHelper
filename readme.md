@@ -17,6 +17,7 @@ An application for searching Reddit posts built with React and Node.js
 * Search Reddit posts by keyword and displays the results containing the fields according to the spec.
 * A 3rd party tooltip library was added to show long posts more clearly
 * Html sanitation was added in the backend to prevent potentially harmful content 
+* Skeleton loader was added for enhanced user experience 
 
 ## Project Structure
 The project was created as monorepo:
