@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"cd RedditSearchClient && npm start\" \"cd RedditSearchServer && npm run start\"",
+    "install-all": "cd RedditSearchClient && npm install && cd ../RedditSearchServer && npm install",
+    "test": "cd RedditSearchServer && npm run test"
+  }
+}
