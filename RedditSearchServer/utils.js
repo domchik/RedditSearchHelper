@@ -11,7 +11,7 @@ async function fetchRedditData(q) {
         const selftext =  post.data.selftext;
         const imageUrl = extractValidImageUrl(post);
         //Filter out feeds with missing essential properties
-        if (!title || !selftext) {
+        if (!title && !selftext) {
             return null;
         }
         const sanitizedText = sanitizeHtml(selftext, { allowedTags: [] });
