@@ -96,10 +96,3 @@ export default function App() {
         </div>
     );
 }
-
-// const id = post.data.id;
-// const author = post.data.author;
-// const url = post.data.url;
-// const title = post.data.title;
-// const selftext =  post.data.selftext;
-// const imageUrl = extractValidImageUrl(post);
