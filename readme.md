@@ -28,8 +28,8 @@ The project was created as monorepo:
 
 1. Run `npm install` from the ROOT folder.
 2. **Install projects' dependencies:** run `npm run install-all` from the ROOT folder.
-3. **Run BE tests:** `npm test-be` from the ROOT folder
-4. **Run FE tests:** `npm test-fe` from the ROOT folder
+3. **Run BE tests:** `npm run test-be` from the ROOT folder
+4. **Run FE tests:** `npm run test-fe` from the ROOT folder
 5. **Run the apps:** `npm start` from the ROOT folder
 5. **The app is running on:** http://localhost:3001
 
