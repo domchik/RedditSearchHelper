@@ -26,10 +26,11 @@ The project was created as monorepo:
 
 ## How to use
 
-1. **Install dependencies:** run `npm run install-all` from the ROOT folder.
-2. **Run BE tests:** `npm test` from the ROOT folder
-3. **Run the apps:** `npm start` from the ROOT folder
-4. **Access app:** http://localhost:3001
+1. Run `npm install` from the ROOT folder.
+2. **Install projects' dependencies:** run `npm run install-all` from the ROOT folder.
+3. **Run BE tests:** `npm test` from the ROOT folder
+4. **Run the apps:** `npm start` from the ROOT folder
+5. **The app is running on:** http://localhost:3001
 
 ## Preview
 
