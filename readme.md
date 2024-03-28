@@ -8,7 +8,7 @@ An application for searching Reddit posts built with React and Node.js
 ## General comments
 * Usually I use TypeScript for both React and Node.js projects. I wrote this application in Javascript for the sake of simplicity 
 * Unit tests were added only in the backend. In a real project I would also add unit test to the client
-* React project was created using Vite 
+* React project was created using Vite (https://vitejs.dev/)
 * .env file was omitted for the sake of simplicity  
 * Dockerfile was not added 
 
